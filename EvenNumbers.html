@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Even Numbers</title>
+  </head>
+  <body>
+    <script>
+      const orgArray = [12, 34, 45, 23, 6, 78, 54, 90];
+      const evenNumbers = orgArray.filter((num) => num % 2 === 0);
+
+      document.write("Original Array: " + orgArray + "<br>");
+      document.write("Filtered Even Numbers: " + evenNumbers);
+    </script>
+  </body>
+</html>
